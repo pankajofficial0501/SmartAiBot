@@ -5,7 +5,7 @@ import { RiImageAddLine } from "react-icons/ri";
 import { MdChatBubbleOutline } from "react-icons/md";
 import { FiPlus } from "react-icons/fi";
 import { FaArrowUpLong } from "react-icons/fa6";
-import { dataContext, prevUser, user } from "../context/UserContext";
+import { dataContext, prevUser, user } from "./context/UserContext";
 import Chat from "./Chat";
 import { generateResponse } from "../gemini";
 import { query } from "../huggingFace";
