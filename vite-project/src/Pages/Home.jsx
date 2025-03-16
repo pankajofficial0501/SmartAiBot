@@ -10,8 +10,8 @@ import Chat from './Chat';
 import { generateResponse } from '../gemini';
 import { query } from '../huggingFace';
 function Home() {
-let {startRes,setStartRes,popUp,setPopUP,input,setInput,feature,setFeature,showResult,setShowResult,prevFeature,setPrevFeature,genImgUrl,setGenImgUrl}=useContext(dataContext)
-async function handleSubmit(e){
+let {startRes,setStartRes,popUp,setPopUP,input,setInput,feature,setFeature,setShowResult,setPrevFeature,setGenImgUrl}=useContext(dataContext)
+async function handleSubmit(){
 
 setStartRes(true)
 setPrevFeature(feature)

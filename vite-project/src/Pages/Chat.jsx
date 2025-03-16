@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { dataContext, prevUser } from '../context/UserContext'
 
 function Chat() {
+    //eslint-disable-next-line
     let {input,setInput,prevInput,setPrevInput,showResult,setShowResult,feature,setFeature,prevFeature,setPrevFeature,genImgUrl,setGenImgUrl}=useContext(dataContext)
   return (
     <div className='chat-page'>

@@ -5,7 +5,7 @@ export async function query() {
 		"https://router.huggingface.co/hf-inference/models/ZB-Tech/Text-to-Image",
 		{
 			headers: {
-				Authorization: "Bearer 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",
+				Authorization: `Bearer ${import.meta.env.VITE_ENVIRONMENT}`,
 				"Content-Type": "application/json",
 			},
 			method: "POST",

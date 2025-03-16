@@ -1,6 +1,6 @@
 import { prevUser } from "./context/UserContext";
 
-const Api_Url="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDO_mMKENps28NPyO9dBkqwAuhmisIkfTI"
+const Api_Url=`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${import.meta.env.VITE_GEMINI_API}`
 
 export async function generateResponse() {
 
@@ -30,6 +30,6 @@ export async function generateResponse() {
     
     }
     catch{
-
+       return ["Sorry, I could not understand that."]
     }
 }
