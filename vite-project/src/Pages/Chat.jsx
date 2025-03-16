@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { dataContext, prevUser } from '../context/UserContext'
+import { dataContext, prevUser } from '../Context/UserContext'
 
 function Chat() {
     
