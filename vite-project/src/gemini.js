@@ -1,4 +1,4 @@
-import { prevUser } from "./context/UserContext";
+import { prevUser } from "./Context/UserContext";
 
 const Api_Url=`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${import.meta.env.VITE_GEMINI_API}`
 

@@ -1,4 +1,4 @@
-import { prevUser } from "./context/UserContext";
+import { prevUser } from "./Context/UserContext";
 
 export async function query() {
 	const response = await fetch(
